@@ -12,6 +12,9 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixes
+
+- On Windows, a console window no longer flashes on screen while CodeGraph runs in the background. Since 1.6.1, each time the background MCP server re-checked which files git ignores, Windows briefly popped up a terminal window — often several in a row while you worked; those checks now run hidden like every other git call CodeGraph makes.
 
 ## [1.6.1] - 2026-09-29
 
